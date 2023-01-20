@@ -1,0 +1,77 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+margin: 100px auto;
+width: 50%;
+height: 50vh;
+}
+.container{
+    
+    padding: 23px;
+    color: white;
+    text-align: center;
+    background-color: rgb(24, 24, 24);
+    
+   
+}
+.head{
+    text-align: center;
+    margin-bottom: 1cm;
+    width: 100%;
+}
+
+#btn-sign{
+    padding: 10px;
+    width: 50%;
+    background: green;
+}
+#btn-login{
+    float: right;
+    padding: 10px;
+    width: 50%;
+    background: darkgray;
+}
+button{
+    border: none;
+}
+
+button:hover{
+    color: aliceblue;
+
+}
+h1{
+    margin-bottom: 1cm;
+}
+input[type="password"],
+input[type="email"]
+{
+    padding: 8px;
+    width: 100%;
+    margin-top: 10px;
+}
+#btn-get{
+    background-color: green;
+    padding: 15px;
+    width: 100%;
+    margin-top: 10px;
+}
+.name{
+    width: 100%;
+}
+.left{
+    width: 49%;
+    float: left;
+}
+.right{
+    width: 49%;
+    float: right;
+}
+input[type="text"]
+{
+    padding: 10px;
+    
+}
